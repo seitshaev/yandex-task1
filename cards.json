@@ -1,0 +1,38 @@
+{
+  "tickets": [
+    {
+      "from": "Barcelona",
+      "to": "Stockholm",
+      "transport": {
+        "type": "airplane",
+        "properties": {
+          "seat": 10,
+          "gate": 35,
+          "number": "SK445"
+        }
+      }
+    },
+    {
+      "from": "Madrid",
+      "to": "Barcelona",
+      "transport": {
+        "type": "bus",
+        "properties": {
+          "seat": 10
+        }
+      }
+    },
+    {
+      "from": "Stockholm",
+      "to": "Paris",
+      "transport": {
+        "type": "train",
+        "properties": {
+          "seat": 10,
+          "platform": 6,
+          "number": "78A"
+        }
+      }
+    }
+  ]
+}
